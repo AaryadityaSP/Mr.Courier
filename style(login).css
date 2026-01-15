@@ -1,0 +1,72 @@
+h1{
+    color: #215584;
+    text-align:center;
+    margin-top:120px;
+}
+.loginpage{
+    margin-bottom: 30px;
+}
+#usernamelogin{
+
+    background:white;
+   margin-top:70px; 
+    border:normal;
+    font-size:1.5em;
+margin-left:466px;
+    width:600px;
+    height:50px;
+    border-radius: 3px;
+
+}
+#passwordlogin{
+
+    background:white;
+    margin-left:466px;
+    margin-top:20px;
+    border:normal;
+    font-size:1.5em;
+
+    width:600px;
+    height:50px;
+    border-radius: 3px;
+
+}
+
+#checkboxlogin{
+    background:white;
+    margin-left:320px;
+    margin-top:40px;
+    border:normal;
+    font-size:1.5em;
+}
+
+#buttonlogin{
+    width:100px;
+    height:50px;
+    border:0;
+    margin-top:25px;
+    margin-left:700px;
+    margin-bottom: 40px;
+    font-size: 1.2em;;
+background-color:#fdca40;
+border-radius: 3px;
+}
+
+#maillogin{
+    margin-left: 620px;
+    font-size:1.2em;
+    text-align: center;
+    text-decoration: none;
+    color:red;
+}
+.loginpage1{
+    margin-top: 40px;
+}
+#signuplogin{
+    margin-top:px;
+    margin-left: 600px;
+    font-size:1.2em;
+    text-align: center;
+    text-decoration: none;
+    color:red;
+}
