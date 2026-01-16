@@ -1,0 +1,130 @@
+*{
+    padding:0px;
+    margin:0px;
+    }   
+.spdiv{
+width:100%;
+height:100%; 
+margin-top:120px;
+}
+h1{
+    color: #215584;
+    text-align:center;
+    margin-top:120px;
+margin-bottom: 60px;}
+
+table{
+    height:100%;
+}
+
+#spfirstname{
+    width:90%; 
+    height:55px;
+margin-bottom:30px;
+font-size:20px;
+}
+
+#splastname{
+    width:90%; 
+    height:55px;
+margin-bottom:30px;
+font-size:20px;
+}
+
+#spickaddress{
+    width:90%; 
+    height:55px;
+margin-bottom:10px;
+font-size:20px;
+}
+#spcountry{
+    width:40%; 
+    height:55px;
+margin-bottom:30px;
+font-size:20px;
+}
+
+#spdropaddress{
+    width:90%; 
+    height:55px;
+margin-bottom:10px;
+font-size:20px;
+}
+
+#sptypeoforder{
+    width:40%; 
+    height:55px;
+margin-bottom:30px;
+font-size:20px;
+}
+
+#spexpirydate{
+    width:40%; 
+    height:55px;
+margin-bottom:30px;
+font-size:20px;
+}
+
+#spdimension{
+    width:90%; 
+    height:55px;
+margin-bottom:30px;
+font-size:20px;
+}
+
+#spweight{
+    width:90%; 
+    height:55px;
+margin-bottom:30px;
+font-size:20px;
+}
+
+#spimage{
+    width:90%; 
+    height:55px;
+margin-bottom:30px;
+font-size:15px;
+}
+#spimage label{
+font-size: 20px;
+}
+ 
+#spickupdate{
+    width:40%; 
+    height:55px;
+margin-bottom:30px;
+font-size:20px;
+}
+
+#spickuptiming{
+    width:40%; 
+    height:55px;
+margin-bottom:10px;
+font-size:20px;
+} 
+
+#spacking{
+     
+    height:20px;
+margin-bottom:30px;
+font-size: 20px;
+
+}
+
+    #tabletd{
+    height:60px;
+    padding:1%;
+    text-align: center;
+    vertical-align: top;
+}
+#spproceed{
+    width:100px;
+    height:50px;
+    border:0;
+    margin-top:25px;
+    margin-left:700px;
+    margin-bottom: 40px;
+    font-size: 1.2em;;
+background-color:#fdca40;
+border-radius: 3px;
+}
