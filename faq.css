@@ -1,0 +1,27 @@
+h1{
+    color: #215584;
+    text-align:center;
+    margin-top:120px;
+    margin-bottom: 70px;
+}
+
+#q{
+    color: #215584;
+    margin-left: 5%;
+    font-size: 30px;
+    margin: 5%;
+}
+#a{
+    width:85%;
+    margin-left: 8%;
+    font-size: 20px;
+    color: black;
+
+}
+#a1{
+    width:85%;
+    margin-left: 8%;
+    font-size: 20px;
+    color: black;
+margin-bottom: 50px;
+}
