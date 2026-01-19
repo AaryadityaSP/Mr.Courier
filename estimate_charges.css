@@ -1,0 +1,63 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.ec{
+    display:flex;
+    width:100%;
+}
+h1{
+    color: #215584;
+    text-align:center;
+    margin-top:120px;
+margin-bottom: 60px;}
+
+#tablediv{
+    width:60%;
+
+}
+#ectypeoforder{
+    width:40%; 
+    height:55px;
+margin-bottom:30px;
+font-size:20px;
+}
+
+
+#ecdimension{
+    width:90%; 
+    height:55px;
+margin-bottom:30px;
+font-size:20px;
+}
+
+#ecweight{
+    width:90%; 
+    height:55px;
+margin-bottom:30px;
+font-size:20px;
+}
+
+
+#tabletd{
+    height:60px;
+    padding:1%;
+    text-align: center;
+    vertical-align: top;
+}
+#boximages{
+    margin-right: 15%;
+    width:30%;
+}
+
+#ecalculate{
+    width:100px;
+    height:50px;
+    border:0;
+    margin-top:25px;
+    margin-left:50%;
+    margin-bottom: 40px;
+    font-size: 1.2em;;
+background-color:#fdca40;
+border-radius: 3px;
+}
