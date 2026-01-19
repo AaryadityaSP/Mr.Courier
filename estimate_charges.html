@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> MrCourier | Estimate charges</title>
+
+    <link rel="stylesheet" href="estimate_charges.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <div class="logo"></div>
+                </a>
+            </div>
+
+            <div class="shipping">
+                <ul>
+                    <li class="pship">Shipping
+                        <div class="expandshipping">
+                            <ul>
+                                <li><a style="text-decoration:none" href="schedule_pickup.html">
+                                        <font color="white">Ship Now</font>
+                                    </a></li><br>
+                                <li> <a style="text-decoration:none" href="estimate_charges.html">
+                                        <font color="white">Estimate Charges</font>
+                                    </a></li><br>
+                                <li><a style="text-decoration:none" href="schedule_pickup.html">
+                                        <font color="white">Packaging & Shipping Supplies</font><br>
+                                    </a></li><br>
+
+                                <li><a style="text-decoration:none" href="schedule_pickup.html">
+                                        <font color="white">International Shipping</font><br>
+                                    </a></li><br>
+
+                                <li><a style="text-decoration:none" href="login.html">
+                                        <font color="white">Previous Shipments</font>
+                                    </a></li><br>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-caret-down"></i>
+
+            </div>
+            <div class="tracking">
+                <ul>
+                    <li class="ptrack">Tracking
+                        <div class="expandtracking">
+                            <ul>
+                                <li><input type="text" placeholder="Tracking Id"><br><button>Track</button></li><br>
+                                <li> <a style="text-decoration:none" href="redirect_package.html">
+                                        <font color="white">MRCOURIER Process</font>
+                                    </a></li><br>
+                                <li> <a style="text-decoration:none" href="redirect_package.html">
+                                        <font color="white">Manage Orders</font>
+                                    </a></li><br>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="services">
+                <ul>
+                    <li class="pserv">Services
+                        <div class="expandservices">
+                            <ul>
+                                <li><a style="text-decoration:none" href="customercare.html">
+                                        <font color="white"> Customer Care</font>
+                                    </a></li><br>
+                                <li><a style="text-decoration:none" href="customercare.html">
+                                        <font color="white"> Industry</font>
+                                    </a></li><br>
+                                <li><a style="text-decoration:none" href="customercare.html">
+                                        <font color="white"> Businesses</font>
+                                    </a></li><br>
+                                <li><a style="text-decoration:none" href="customercare.html">
+                                        <font color="white"> Education</font>
+                                    </a></li><br>
+                                <li><a style="text-decoration:none" href="customercare.html">
+                                        <font color="white"> Environment</font>
+                                    </a></li><br>
+                                <li><a style="text-decoration:none" href="customercare.html">
+                                        <font color="white"> Humanity</font>
+                                    </a></li><br>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="support">
+                <ul>
+                    <li class="psupp">Support
+                        <div class="expandsupport">
+                            <ul>
+                                <li><a style="text-decoration:none" href="customercare.html">
+                                        <font color="white"> Customer Care</font>
+                                    </a></li><br>
+                                <li> File A Claim</li><br>
+                                <li> <a style="text-decoration:none" href="redirect_package.html">
+                                        <font color="white">Reschedule Delivery</font>
+                                    </a></li><br>
+                                <li><a style="text-decoration:none" href="FAQ.html">
+                                        <font color="white">FAQs</font>
+                                    </a></li><br>
+
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+
+            <div class="login">
+                <p class="plogin"><a style="text-decoration:none" href="login.html">
+                        <font color="white">Sign Up/ Log In</font>
+                    </a></p>
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            </div>
+            <div class="nav-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <h1>Estimate Charges</h1>
+    <div class="ec">
+
+        <div id="tablediv">
+            <table>
+
+                <tr>
+                    <td id="tabletd">
+                        <label for id="ectypeoforder"> Type of Parcel: </label>
+                    </td>
+                    <td>
+                        <select id="ectypeoforder"> xTYPE
+                            <option>Type</option>
+                            <option>Documents</option>
+                            <option>Furnitures & Decorations</option>
+                            <option>Books & Stationary</option>
+                            <option>Clothing & apperals</option>
+                            <option>Electronic Appliances & Electronics</option>
+                            <option>Food & Edibles</option>
+                            <option>Other</option>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td id="tabletd">
+                        <label for id="ecdimension"> Dimensions (in Centimetes.):</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Length" id="ecdimension"><br>
+                        <input type="text" placeholder="Width" id="ecdimension"><br>
+                        <input type="text" placeholder="Height" id="ecdimension"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="tabletd">
+                        <label for id="ecweight"> Courier Weight (in Kg):</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Weight:" id="ecweight"><br>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="boximages">
+            <img src="stack_of_boxes.jpg">
+        </div>
+    </div>
+    <button id="ecalculate">CALCULATE</button><br>
+
+    <footer>
+        <div class="container">
+            <div class="footer-section">
+                <h3>Our Company</h3>
+                <ul>
+                    <li><a href="aboutus.html">About MRCOURIER</a></li>
+                    <li><a href="Careers.html">Careers</a></li>
+                    <li><a href="tos.html">TOS</a></li>
+                    <li><a href="International Holiday Schedule.html">International Holiday Schedule</a></li>
+                    <li><a href="customercare.html">Conditions of Carriage</a></li>
+                    <li><a href="customercare.html">Binding Corporate Rules</a></li>
+                    <li><a href="login.html">MEISA Newsroom</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>New Customer</h3>
+                <ul>
+                    <li><a href="login.html">Open an Account</a></li>
+                    <li><a href="login.html">Register for a Login</a></li>
+                    <li><a href="customercare.html">New Customer Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li><a href="aboutus.html">Contact MRCOURIER</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>More From MRCOURIER</h3>
+                <ul>
+                    <li><a href="login.html">Sign up for eNews</a></li>
+                    <li><a href="customercare.html">MRCOURIER Developer Portal</a></li>
+                    <li><a href="customercare.html">Fuel Surcharge</a></li>
+                    <li><a href="customercare.html">Rates & Surcharges</a></li>
+                    <li><a href="customercare.html">Resources</a></li>
+                    <li><a href="Careers.html">Work at MRCOURIER LOCATIONS</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>Language: India | English</p>
+        <p>&copy; MRCOURIER, Aaditya And Aaryaditya 2020</p>
+    </footer>
+
+</body>
+
+</html>
